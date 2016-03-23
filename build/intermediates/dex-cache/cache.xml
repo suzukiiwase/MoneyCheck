@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/home2/android62/AndroidStudioProjects/MoneyCheck/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/home2/android62/AndroidStudioProjects/MoneyCheck/app/build/intermediates/pre-dexed/release/classes-d2cc0d402085934132069e5f47374c68ab794f3f.jar" />
+    </item>
+    <item
+        jar="/Users/home2/android62/AndroidStudioProjects/MoneyCheck/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="/Users/home2/android62/AndroidStudioProjects/MoneyCheck/app/build/intermediates/pre-dexed/release/classes-15793a1dd1ced06bff5d6aaad169ce58cd6c918f.jar" />
+    </item>
+    <item
+        jar="/Users/home2/android62/AndroidStudioProjects/MoneyCheck/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/home2/android62/AndroidStudioProjects/MoneyCheck/app/build/intermediates/pre-dexed/release/classes-c0fe813a3be68cb5650b7e1ac25ab562ea9bc3eb.jar" />
+    </item>
+    <item
+        jar="/Users/home2/android62/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/home2/android62/AndroidStudioProjects/MoneyCheck/app/build/intermediates/pre-dexed/release/support-annotations-23.0.1-39e76cb7d7a723bc757e2eac8e07869ba742ad33.jar" />
+    </item>
+    <item
+        jar="/Users/home2/android62/AndroidStudioProjects/MoneyCheck/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/home2/android62/AndroidStudioProjects/MoneyCheck/app/build/intermediates/pre-dexed/release/internal_impl-23.0.1-9b3f18cff58cbc3f55ecd76be2f8d339006dc670.jar" />
+    </item>
+    <item
+        jar="/Users/home2/android62/AndroidStudioProjects/MoneyCheck/app/build/intermediates/exploded-aar/com.android.support/support-v13/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8c046c952177602c858ed41c8fc492c939bde9aa">
+        <dex dex="/Users/home2/android62/AndroidStudioProjects/MoneyCheck/app/build/intermediates/pre-dexed/release/classes-155da0a4db2069e859b0c4c109bb1492f0e6c9d2.jar" />
+    </item>
+    <item
+        jar="/Users/home2/android62/AndroidStudioProjects/MoneyCheck/app/build/intermediates/exploded-aar/com.android.support/support-v13/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a0c456a59e1edab84702b48a626705aa1d830ccc">
+        <dex dex="/Users/home2/android62/AndroidStudioProjects/MoneyCheck/app/build/intermediates/pre-dexed/release/internal_impl-23.0.1-38d69a78f89f304be0a34fed0d4706e175cab139.jar" />
+    </item>
+
+</items>

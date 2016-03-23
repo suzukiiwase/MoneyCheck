@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="spnEntries">
+        <!--<dimen name="40sp">-->
+        <item>丸めなし</item>
+        <item>10円単位</item>
+        <item>100円単位</item>
+    <!--</dimen>-->
+    </string-array>
+</resources>

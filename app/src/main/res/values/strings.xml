@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">割り勘アプリ</string>
+    <string name="spnPrompt">割り勘方法</string>
+    <string name="result">0</string>
+    <string name="title_activity_nomal">Normal</string>
+    <string name="title_activity_boss">Boss</string>
+    <string name="title_activity_lose">Lose</string>
+    <string name="title_activity_female">Female</string>
+    <string name="title_activity_explain">Explain</string>
+
+
+    <string name="title_op">
+         最後に。\n
+        このアプリをダウンロードしてくだってありがとうございます。\n
+        この割り勘アプリには４つ機能が付いており、違った使い方をすることができます。\n
+        貴方の日々の計算が楽になればいいなと思います。\n
+
+    </string>
+
+    <string name="SECTION_1">
+        一般的な計算（金額÷人数）をすることができます。\n\n
+    </string>
+
+
+    <string name="SECTION_20">
+         ある一人の負担金額を最大２倍までランダムで増やすことができます。\n
+        例えば、以下のような使い方をすることができます。\n
+    </string>
+    <string name="SECTION_210">
+        罰ゲームを受ける人を決定してください
+    </string>
+
+    <string name="SECTION_211">
+         金額と人数を入力してください。\n
+    </string>
+    <string name="SECTION_212">
+         計算ボタンを押すと、負けた人の負担割増をランダムで決定します。\n
+    </string>
+    <string name="SECTION_213">
+        負けた人の金額と残り人の金額を表示します。\n
+    </string>
+    <string name="SECTION_214">
+        もし負けた人に泣き付かれたら計算ボタンを数回押して割合を変えてあげましょう。\n
+    </string>
+
+     <string name="SECTION_2">
+    　   右下の『GAME』はある一人の負担金額を最大２倍までランダムで増やすことができます。\n
+         例えば、以下のような使い方をすることができます。\n\n
+         1.罰ゲームを受ける人を決定してください。\n\n
+         2.金額と人数を入力してください。\n\n
+         3.計算ボタンを押すと、負けた人の負担割増をランダムで決定します。\n\n
+         4.負けた人の金額と残り人の金額を表示します。\n\n
+         5.もし負けた人に泣き付かれたら計算ボタンを数回押して割合を変えてあげましょう。\n\n
+    </string>
+
+
+
+    <string name="SECTION_30">
+         割り勘計算をする前に一定金額を支払ってくれた人がいる場合に活用できます。\n
+        例えば、以下のような使い方をすることができます。\n
+    </string>
+    <string name="SECTION_310">
+         上司と部下合わせて8人で飲みにいき、合計支払が3万円でした。\n
+    </string>
+    <string name="SECTION_311">
+        2人の上司が5000円ずつ、合わせて1万円支払ってくれたとします。\n
+    </string>
+    <string name="SECTION_312">
+        上司の人数（2）、支払ってもらった金額（10000）、合計支払金額（30000）、全体の人数（8）を入力します。\n
+    </string>
+    <string name="SECTION_313">
+        計算ボタンを押すと支払った上司以外の一人当たりの金額を表示します。\n
+    </string>
+    <string name="SECTION_314">
+        途中で帰った人がいる場合にも活用いただけます。\n
+    </string>
+
+    <string name="SECTION_3">
+         右上の『BOSS』は割り勘計算をする前に一定金額を支払ってくれた人がいる場合に活用できます。\n
+        例えば、以下のような使い方をすることができます。\n\n
+        1.上司と部下合わせて8人で飲みにいき、合計支払が3万円でした。\n\n
+        2.2人の上司が5000円ずつ、合わせて1万円支払ってくれたとします。\n\n
+        3.上司の人数（2）、支払ってもらった金額（10000）、合計支払金額（30000）、全体の人数（8）を入力します。\n\n
+        4.計算ボタンを押すと支払った上司以外の一人当たりの金額を表示します。\n\n
+        5.途中で帰った人がいる場合にも活用いただけます。\n
+    </string>
+
+
+
+    <string name="SECTION_40">
+         男性の優しさが露わになるモードです。\n
+        例えば、以下のような使い方をすることができます。\n
+    </string>
+    <string name="SECTION_410">
+        男5人,女子4人（合計9人）で食事をしたとして、合計支払が2万5350円でした。\n
+    </string>
+    <string name="SECTION_411">
+        金額、男女の人数を入力して計算ボタンを押すと一人当たりの金額（2817円）が表示されます。\n
+    </string>
+    <string name="SECTION_412">
+        ここで優しい男性陣は女性に『女の子は2000円でイイよ…！俺らが出すからさ』と言います。\n
+    </string>
+    <string name="SECTION_413">
+        女性の支払欄に2000円を入力し、もう一度計算ボタンを押すと男性の支払金額が表示されます。\n
+    </string>
+    <string name="SECTION_414">
+        他にも飲めない人、量を食べない人がいる場合にも活用いただけます。\n
+    </string>
+    <string name="SECTION_4">
+         左下の『FEMALE』は男性の優しさが露わになるモードです。\n
+        例えば、以下のような使い方をすることができます。\n
+        1.男5人,女子4人（合計9人）で食事をしたとして、合計支払が2万5350円でした。\n
+        2.金額、男女の人数を入力して計算ボタンを押すと一人当たりの金額（2817円）が表示されます。\n
+        3.ここで優しい男性陣は女性に『女の子は2000円でイイよ…！俺らが出すからさ』と言います。\n
+        4.女性の支払欄に2000円を入力し、もう一度計算ボタンを押すと男性の支払金額が表示されます。\n
+        5.他にも飲めない人、量を食べない人がいる場合にも活用いただけます。\n
+    </string>
+
+
+
+    <string name="explain_marume">
+         すべてのモードに丸め単位機能をつけております。\n
+        不足分が出ないように選択された単位で端数を切り上げて表示します。\n
+        余った分のお金も表示しますので、参考にしてください。\n
+
+    </string>
+
+
+    <string name="explain_name">
+        作成者　岩瀬　友紀\n
+        　　　　鈴木　かれん\n
+        　　　　
+
+    </string>
+    <string name="title_activity_tab_navigation">tabNavigation</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+
+</resources>

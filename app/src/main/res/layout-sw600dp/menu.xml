@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#000000"
+    >
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:text="使い方"
+        android:id="@+id/btnExplain"
+        android:layout_gravity="right|top" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="SELECT MODE"
+        android:textColor="#FFFFFF" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:id="@+id/btnNormal"
+            android:textSize="40dp"
+            android:text="NORMAL"
+            android:background="#d0c152"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:id="@+id/btnBoss"
+            android:textSize="40dp"
+            android:text="BOSS"
+            android:background="#33a6b8"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:id="@+id/btnFemale"
+            android:textSize="40dp"
+            android:text="FEMALE"
+            android:background="#673875"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:id="@+id/btnLose"
+            android:textSize="40dp"
+            android:text="GAME"
+            android:background="#48bea3"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</LinearLayout>

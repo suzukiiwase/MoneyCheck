@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.android62.moneycheck.explain">
+    <!--android:paddingLeft="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingRight="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingTop="@dimen/activity_vertical_margin"-->
+    <!--android:paddingBottom="@dimen/activity_vertical_margin"-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+       <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+
+
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="NORMAL"
+               android:textSize="50dp"
+               android:id="@+id/normal2"
+               android:background="#c8b45b"
+               android:textColor="#ffffff"
+               android:paddingLeft="10dp" />
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/SECTION_1"
+                android:id="@+id/normal"
+                android:background="#c8b45b"
+                android:textColor="#000000"
+                android:padding="10dp"
+            android:textSize="15dp" />
+
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="BOSS"
+               android:textColor="#ffffff"
+               android:textSize="50dp"
+               android:background="#33a6b8"
+               android:paddingLeft="10dp" />
+
+
+           <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/SECTION_30"
+                android:id="@+id/boss1"
+                android:textColor="#000000"
+                android:background="#33a6b8"
+                android:padding="10dp"
+               android:textSize="15dp" />
+
+           <TableRow
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal"></TableRow>
+
+           <TableLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/TableLayout1"
+               android:stretchColumns="2"
+               android:shrinkColumns="1,2"
+               android:background="#33a6b8">
+
+                <include layout="@layout/table_row" />
+               <include layout="@layout/table_row" />
+               <include layout="@layout/table_row" />
+               <include layout="@layout/table_row" />
+               <include layout="@layout/table_row" />
+
+           </TableLayout>
+
+           <TextView
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:text="FEMALE"
+               android:textSize="50dp"
+               android:background="#673875"
+               android:textColor="#ffffff"
+               android:paddingLeft="10dp" />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/SECTION_40"
+               android:id="@+id/female"
+               android:background="#673875"
+               android:textColor="#000000"
+               android:padding="10dp"
+               android:textSize="15dp" />
+
+           <TableLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/TableLayout2"
+               android:stretchColumns="2"
+               android:shrinkColumns="1,2"
+               android:background="#673875">
+
+               <include layout="@layout/table_row" />
+               <include layout="@layout/table_row" />
+               <include layout="@layout/table_row" />
+               <include layout="@layout/table_row" />
+               <include layout="@layout/table_row" />
+
+           </TableLayout>
+
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="GAME"
+               android:textSize="50dp"
+               android:background="#48bea3"
+               android:textColor="#ffffff"
+               android:paddingLeft="10dp" />
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/SECTION_20"
+               android:id="@+id/lose"
+               android:background="#48bea3"
+               android:textColor="#000000"
+               android:padding="10dp"
+               android:textSize="15dp" />
+
+           <TableLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/TableLayout3"
+               android:stretchColumns="2"
+               android:shrinkColumns="1,2"
+               android:background="#48bea3">
+
+               <include layout="@layout/table_row" />
+               <include layout="@layout/table_row" />
+               <include layout="@layout/table_row" />
+               <include layout="@layout/table_row" />
+               <include layout="@layout/table_row" />
+
+           </TableLayout>
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="その他機能"
+               android:textSize="40dp"
+               android:background="#ca6faf"
+               android:textColor="#ffffff"
+               android:paddingLeft="10dp"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/explain_marume"
+               android:background="#ca6faf"
+               android:id="@+id/explain_marume"
+               android:textColor="#000000"
+               android:padding="10dp"
+               android:textSize="15dp"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/title_op"
+               android:id="@+id/title_op"
+               android:background="#ffffff"
+               android:textColor="#d42c2a2d"
+               android:layout_weight="0.39"
+               android:padding="10dp"
+               android:textSize="15dp"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="right"
+               android:text="@string/explain_name"
+               android:background="#ffffff"
+               android:textColor="#d42c2a2d"
+               android:layout_weight="0.39"
+               android:padding="10dp"
+               android:textSize="10dp"/>
+       </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

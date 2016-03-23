@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MoneyCheckController"
+    android:weightSum="1"
+    android:background="#33a6b8">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#ffffff"
+        android:layout_weight="0.03">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="金額："
+            android:id="@+id/textview"
+            android:textColor="#280d0a" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="30dp"
+            android:inputType="number"
+            android:id="@+id/sumMoney"
+            android:background="#33a6b8"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.03">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="参加人数："
+            android:id="@+id/textview2"
+            android:textColor="#280d0a" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:id="@+id/people"
+            android:background="#33a6b8"
+            android:textSize="30dp"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.03">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="上司人数："
+            android:id="@+id/textview3"
+            android:textColor="#280d0a" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:id="@+id/boss"
+            android:background="#33a6b8"
+            android:textSize="30dp"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.03">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="上司支払額："
+            android:id="@+id/textview4"
+            android:textColor="#280d0a" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:id="@+id/bossMoney"
+            android:background="#33a6b8"
+            android:textSize="30dp"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_weight="0.04">
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="丸め単位："
+            android:textColor="#280d0a" />
+        <Spinner
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:textSize="100dp"
+            android:background="#280d0a"
+            android:prompt="@string/spnPrompt"
+            android:entries="@array/spnEntries"
+            android:id="@+id/spinner"
+            android:spinnerMode="dropdown" />
+    </LinearLayout>
+
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:id="@+id/btnCalc"
+            android:textSize="30dp"
+            android:text="計算"
+            android:layout_gravity="center|bottom"
+            android:background="#280d0a"
+            android:gravity="center"
+            android:textColor="#ffffff" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_weight="0.1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="￥"
+            android:textSize="70dp"
+            android:textColor="#280d0a"
+            android:layout_gravity="center"
+            android:layout_weight="0.06" />
+
+        <TextView
+            android:id="@+id/txtResult"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/result"
+            android:textSize="70dp"
+            android:layout_gravity="center"
+            android:textColor="#ffffff" />
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="円"-->
+        <!--android:textSize="50dp"-->
+        <!--android:id="@+id/textview4" />-->
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="余分："-->
+        <!--android:textSize="20dp"-->
+        <!--android:textColor="#280d0a" />-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="余分：￥"
+            android:textColor="#280d0a"
+            android:layout_gravity="center"
+            android:layout_weight="0.06" />
+        <TextView
+            android:id="@+id/txtExtra"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/result"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/txtMen"-->
+            <!--android:text="一人当たり："-->
+            <!--android:textSize="40sp" />-->
+        <!--<TextView-->
+            <!--android:id="@+id/txtResult"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:text="@string/result"-->
+            <!--android:textSize="40sp"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="円"-->
+            <!--android:textSize="40sp" />-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="余分："-->
+            <!--android:textSize="40sp" />-->
+        <!--<TextView-->
+            <!--android:id="@+id/txtExtra"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:text="@string/result"-->
+            <!--android:textSize="40sp"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="円"-->
+            <!--android:textSize="40sp" />-->
+    <!--</LinearLayout>-->
+
+</LinearLayout>
