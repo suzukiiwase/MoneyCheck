@@ -53,12 +53,13 @@
   ・activity_female.xml       （女性モード内のレイアウト）   
   ・activity_lose.xml         （罰ゲームモード内のレイアウト）   
   ・menu.xml            （メニュー画面のレイアウト）  
-  (MoneyCheck/app/src/main/res/value)  
-  ・array.xml  
-　・strirg.xml  
-　・style.xml  
-　・dimens.xml  
-　・colors.xml  
+  
+  (MoneyCheck/app/src/main/res/value)    
+  ・array.xml  (spinner内を定義)  
+　・strirg.xml  (文字列を定義)  
+　・style.xml   (レイアウトスタイルの定義）  
+　・dimens.xml  （テキストサイズの定義）  
+　・colors.xml  　（カラーの定義）  
   
   
 ##＜インストール方法＞
