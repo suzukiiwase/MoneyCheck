@@ -1,6 +1,6 @@
 # MoneyCheck 割り勘アプリ
 
-![Alt text](/path/to/menu.jpg)
+![Alt text](/menu.jpg)
 
 //***********************************************************************//  
 【ソフト名】	warikan Ver1.0  
