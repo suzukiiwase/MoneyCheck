@@ -39,23 +39,26 @@
 ##＜主なファイル構成＞  
 　・readme.txt　　　(説明ファイル)    
 　・warikan.apk	  　(apkファイル)    
-##＜javaソースコード(MoneyCheck/app/src/main/java/com/example/android62/moneycheck/)＞
-  ・Normal.java     （普通モード）
-  ・Boss.java       （上司モード）
-  ・Female.java     （女性モード）
-  ・Lose.java       （罰ゲームモード)
-  ・MoneyCheckController.java     （コントローラ）
-##＜xmlファイル(MoneyCheck/app/src/main/res)＞
-  ・activity_normal.xml       （普通モード内のレイアウト）
-  ・activity_boss.xml         （上司モード内のレイアウト）
-  ・activity_female.xml       （女性モード内のレイアウト）
-  ・activity_lose.xml         （罰ゲームモード内のレイアウト）
-  ・menu.xml            （メニュー画面のレイアウト）
-  ・array.xml
-　・strirg.xml
-　・style.xml
-　・dimens.xml
-　・colors.xml
+##＜javaソースコード＞
+(MoneyCheck/app/src/main/java/com/example/android62/moneycheck/)  
+  ・Normal.java     （普通モード）  
+  ・Boss.java       （上司モード）  
+  ・Female.java     （女性モード）  
+  ・Lose.java       （罰ゲームモード)  
+  ・MoneyCheckController.java     （コントローラ）  
+##＜xmlファイル＞  
+(MoneyCheck/app/src/main/res/layout)  
+  ・activity_normal.xml       （普通モード内のレイアウト）  
+  ・activity_boss.xml         （上司モード内のレイアウト）   
+  ・activity_female.xml       （女性モード内のレイアウト）   
+  ・activity_lose.xml         （罰ゲームモード内のレイアウト）   
+  ・menu.xml            （メニュー画面のレイアウト）  
+  (MoneyCheck/app/src/main/res/value)  
+  ・array.xml  
+　・strirg.xml  
+　・style.xml  
+　・dimens.xml  
+　・colors.xml  
   
   
 ##＜インストール方法＞
